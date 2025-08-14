@@ -4,8 +4,7 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/princecorg/AnimeRequesterV2)](https://github.com/princecorg/AnimeRequesterV2/commits/main)
 [![GitHub issues](https://img.shields.io/github/issues/princecorg/AnimeRequesterV2)](https://github.com/princecorg/AnimeRequesterV2/issues)
 
-📝Lien du projet : [Anime Requester sur GitHub Pages](https://ton-utilisateur.github.io/anime-requester/)
-
+📝Lien du projet : [Anime Requester V2](https://princecorg.github.io/AnimeRequesterV2/)
 ---
 
 ## Socle technique
