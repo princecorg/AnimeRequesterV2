@@ -46,7 +46,7 @@
 ---
 
 ## API utilisée
-- **Jikan API** via RapidAPI : [https://rapidapi.com/jikan/api/jikan1](https://rapidapi.com/jikan/api/jikan1)  
+- **Anime DB API** via RapidAPI : [Anime DB de Brian Rofiq](https://rapidapi.com/brian.rofiq/api/anime-db))  
 - Pour utiliser l’API :  
   1. Créer un compte RapidAPI : [https://rapidapi.com/auth/sign-up](https://rapidapi.com/auth/sign-up)  
   2. Rechercher “Jikan” et ajouter l’API à vos favoris  
