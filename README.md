@@ -46,11 +46,12 @@
 ---
 
 ## API utilisée
-- **Anime DB API** via RapidAPI : [Anime DB de Brian Rofiq](https://rapidapi.com/brian.rofiq/api/anime-db))  
-- Pour utiliser l’API :  
-  1. Créer un compte RapidAPI : [https://rapidapi.com/auth/sign-up](https://rapidapi.com/auth/sign-up)  
-  2. Rechercher “Jikan” et ajouter l’API à vos favoris  
-  3. Récupérer votre clé API et la saisir dans l’interface de la page  
+**Anime DB API** via RapidAPI : [Anime DB de Brian Rofiq](https://rapidapi.com/brian.rofiq/api/anime-db)  
+
+**Pour utiliser l’API :**  
+1. Créer un compte RapidAPI : [https://rapidapi.com/auth/sign-up](https://rapidapi.com/auth/sign-up)  
+2. Rechercher “Jikan” et ajouter l’API à vos favoris  
+3. Récupérer votre clé API et la saisir dans l’interface de la page  
 
 ---
 
