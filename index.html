@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Requester</title>
+    <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <!-- Boutons flottants -->
+    <button id="themeToggle" class="theme-toggle" aria-label="Basculer thème">
+        <span class="fa-solid fa-moon" aria-hidden="true"></span>
+    </button>
+
+    <button id="scrollTop" class="scroll-top" aria-label="Retour en haut">
+        <span class="fa-solid fa-arrow-up" aria-hidden="true"></span>
+    </button>
+
+    <button id="changeApiKey" class="theme-toggle" aria-label="Changer la clé API" title="Changer la clé API">
+        <span class="fa-solid fa-key" aria-hidden="true"></span>
+    </button>
+
+    <div class="container">
+        <h1>ANIME REQUESTER</h1>
+
+        <div class="form-section">
+            <!-- Endpoint -->
+            <div class="form-row">
+                <label for="endpoint">Choisissez un type de recherche :</label>
+                <select id="endpoint">
+                    <option value="search">Recherche par titre</option>
+                    <option value="by-id">Recherche par ID</option>
+                    <option value="by-ranking">Recherche par rang</option>
+                    <option value="by-genre">Recherche par genre</option>
+                    <option value="get-genres">Liste des genres</option>
+                </select>
+            </div>
+
+            <!-- Paramètre -->
+            <div class="form-row" id="paramContainer">
+                <label for="param">Paramètre :</label>
+                <input type="text" id="param" placeholder="Titre, ID ou rang">
+            </div>
+
+            <!-- Genres -->
+            <div id="genreContainer" class="genre-container" style="display:none;">
+                <div id="genreList"></div>
+            </div>
+
+            <!-- Boutons recherche / effacer -->
+            <div class="button-group">
+                <button id="searchBtn">Rechercher</button>
+                <button id="clearBtn">Réinitialiser</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Résultats -->
+    <div id="results"></div>
+
+    <!-- Script principal -->
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
